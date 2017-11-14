@@ -1,0 +1,38 @@
+<!-- Tabela de gerencia-->
+
+<div class="col-md-9 tabela">
+    <div class="panel panel-default">
+        <table class="table table-striped">
+            <!-- BEGIN BLOCK_LISTA -->
+            <thead>
+            <tr>
+                <th>Canal</th>
+                <th>Source</th>
+                <th>Medium</th>
+            </tr>
+            </thead>
+
+            <tbody>
+            <!-- BEGIN BLOCK_DADOS -->
+            <tr>
+                <td>{PRODUTO}</td>
+                <td>{VALOR}</td>
+                <td {ALTERAR}><a href="?id={ID_CANAL}"><i id="alterar" class="edit"></i></a>
+                </td>
+                <td {REMOVER}>
+                    <form action="#" method="post">
+                        <input type="hidden" value="{ID_CANAL}" name="id-remove">
+                        <button name="remover" class="rmv"><i id="remover" class="remove"></i></button>
+                    </form>
+                </td>
+            </tr>
+            <!-- END BLOCK_DADOS -->
+            </tbody>
+        </table>
+        <!-- END BLOCK_LISTA -->
+
+        <p class="alert-danger" align="center">Nenhum registro encontrado.</p>
+
+        <!-- FINALLY BLOCK_LISTA -->
+    </div>
+</div>

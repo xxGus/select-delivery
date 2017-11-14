@@ -1,0 +1,113 @@
+<link rel="stylesheet" href="../../assets/_css/sass.css">
+<section class="dadosCliente">
+    <div class="container">
+        <form class="col-md-9">
+            <h2>Dados de Entrega</h2>
+            <hr>
+            <button type="submit" class="btn btn-primary col-md-3">Entrega</button>
+            <div class="col-md-4">
+                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Telefone:">
+            </div>
+            <div class="col-md-5 ajusteTxt">
+                <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Nome do Cliente:">
+            </div>
+            <br><br>
+            <div class="col-md-7 ajusteTxt">
+                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Local da entrega:">
+            </div>
+            <div class="col-md-2">
+                <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Nº:">
+            </div>
+            <div class="col-md-3 ajusteTxt">
+                <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Complemento:">
+            </div>
+        </form>
+        <div class="col-md-3">
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th>nº</th>
+                    <th>Pedidos</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>pizza 1</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>pizza 2</td>
+                </tr>
+                <tr>
+                    <th scope="row">3 </th>
+                    <td>pizza 3</td>
+                </tr>
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+</section>
+
+<section class="dadosPedido">
+    <div class="container">
+        <form action="">
+
+
+            <div class="col-md-12">
+                <h2>Dados do Pedido</h2>
+                <hr>
+                <div class="col-md-4 ajusteTxt">
+                    <form class="addPizza" action="">
+                        <input type="text" class="form-control" placeholder="Tamanho:">
+                        <input type="text" class="form-control ajusteTxtPedido" placeholder="Borda:" disabled>
+                        <input type="text" class="form-control ajusteTxtPedido" placeholder="Sabor:" disabled>
+                        <button class="btn btn-primary ajustarBotao">Adicionar Pizza</button>
+                    </form>
+                    <form class="addProduto" action="">
+                        <input type="text" class="form-control ajusteTxtPedido" placeholder="Produto:">
+                        <input type="text" class="form-control ajusteTxtPedido" placeholder="Comentário:">
+                        <button class="btn btn-primary ajustarBotao">Adicionar Produto</button>
+                    </form>
+                </div>
+
+                <div class="col-md-4">
+
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-primary btoDesconto">Desconto</button>
+                        <button type="button" class="btn btn-default btoAcrescimo">Acréscimo</button>
+                    </div>
+                    <input type="text" class="form-control valorPedido" placeholder="Valor:">
+
+                    <div class="dropdown">
+                        <button class="btn btn-default dropdown-toggle selecPag" type="button" data-toggle="dropdown">Selecionar Pagamento</button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Dinheiro</a></li>
+                            <li><a href="#">Cartão</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-6 recibo">
+                        <input type="text" class="form-control" placeholder="Recibo:">
+                    </div>
+
+                    <div class="col-md-5 valor">
+                        <input class="form-control" type="text" name="" id="" placeholder="0.0" disabled>
+                    </div>
+                    <a href="" class="dividir-pag">Dividir pagamento</a>
+
+                    <textarea name="" id="" cols="30" rows="3" placeholder="Observação:"></textarea>
+                    <button class="btn btn-primary">Fechar Pedido</button>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="panel panel-default">
+                        Resumo do pedido: {VALOR}
+                        <hr> Taxa de entrega: {VALOR}
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <link rel="stylesheet" href="../assets/_css/sass.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="styleshee t" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+          crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+          crossorigin="anonymous">
+
+    <link rel="icon" href="../../assets/_img/logo.png">
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <div class="col-lg-9 col-md-9">
+            <span class="logoDelivery">Select Delivery</span>
+        </div>
+    </div>
+</header>
+<section class="corpo">
+    <div class="container">
+        <div class="col-lg-4 col-md-4"></div>
+        <!-- Area de Login -->
+        <div class="col-lg-4 col-md-4">
+            <div class="areaLogin">
+                <h2><span class="welcome">Bem-Vindo!</span></h2>
+                <div class="painel-body">
+                    <form class="form-horizontal" action="valida-login.php" method="POST" id="formLogin">
+                        <div class="form-group">
+                            <label for="login" class="col-lg-12 col-md-12 control-label"><p class="formatLabel">Login</p></label>
+                            <div class="col-lg-1 col-md-1"></div>
+                            <div class="col-lg-10 col-md-10">
+                                <input type="text" class="form-control" id="login" name="txtNick" placeholder="ex: Rafael02">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="senha" class="col-lg-12 col-md-12 control-label"><p class="formatLabel">Senha</p></label>
+                            <div class="col-lg-1 col-md-1"></div>
+                            <div class="col-lg-10 col-md-10">
+                                <input type="password" class="form-control" id="senha" name="txtSenha" placeholder="ex: abc123@$?">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <div class="checkbox">
+                                    <label class="welcome">
+                                        <input type="checkbox">Salvar Login
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <button name="btoEntrar" type="submit" class="btn btn-success">Entrar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="container">
+        <p>&#169 Powered by <u>LDM Solutions</u></p>
+    </div>
+
+</footer>
+<script src="../assets/_js/login.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

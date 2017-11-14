@@ -1,0 +1,70 @@
+<div class="corpo-cadastro">
+    <div class="container">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h2>
+                    <!-- COLOCAR TITULO DE PIZZA OU GERENCIAR PIZZAS DPS CRIAR PANEL PARA CADA CAMPO, CADASTRO, ATERAÇÃO E LISTA -->
+                    Pizzas
+                </h2>
+            </div>
+            <div class="panel-body">
+                {AVISO}
+                <form id="fmr-principal" name="fmr-principal" action="" method="post">
+                    <input type="text" class="form-control" name="nome" placeholder="Pizza:" value="{VALUE_NOME}" required/><br>
+                    <input type="text" class="form-control" name="sabor" placeholder="Sabor:" value="{VALUE_SABOR}" required/><br>
+                    <input type="number" class="form-control" name="valor" placeholder="Valor:" value="{VALUE_VALOR}" required/><br>
+                    <input type="hidden" value="{ID}" name="id-pizza" id="id-pizza">
+                    <button type="submit" class="btn btn-primary" id="bto-cadastrar" name="bto-cadastrar" value="cadastrar">
+                        Cadastrar
+                    </button>
+                    <button type="submit" class="btn btn-info" id="bto-alterar" name="alterar" value="alterar">
+                        Alterar
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <div class="col-md-9 tabela">
+            <div class="panel panel-default">
+                <table class="table table-striped">
+                    <!-- BEGIN BLOCK_LISTA -->
+                    <thead>
+                    <tr>
+                        <th>Pizza</th>
+                        <th>Sabor</th>
+                        <th>Valor</th>
+                    </tr>
+                    </thead>
+
+                    <tbody>
+                    <!-- BEGIN BLOCK_DADOS -->
+                    <tr>
+                        <td>{PIZZA}</td>
+                        <td>{SABOR}</td>
+                        <td>{VALOR}</td>
+                        <td><a href="?id={ID_PIZZA}"><i id="alterar" class="fa fa-pencil-square-o"></i></a>
+                        </td>
+                        <td {REMOVER}>
+                            <form id="fmr-remover" action="#" method="post">
+                                <input type="hidden" value="{ID_PIZZA}" name="id-remove">
+                                <button id="bto-remover" name="btn-remover" class="rmv" value="remover">
+                                    <i id="remover" class="fa fa-times"></i>
+                                </button>
+                            </form>
+                        </td>
+                    </tr>
+                    <!-- END BLOCK_DADOS -->
+                    </tbody>
+                </table>
+                <!-- END BLOCK_LISTA -->
+
+                <p class="alert-danger" align="center">Nenhum registro encontrado.</p>
+
+                <!-- FINALLY BLOCK_LISTA -->
+            </div>
+        </div>
+    </div>
+    <!-- Tabela de gerencia-->
+
+
+</div>
