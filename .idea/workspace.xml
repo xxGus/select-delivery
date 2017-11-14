@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0adb8cd-af8c-40ee-bb21-c39f850efdf9" name="Default" comment="" />
+    <list default="true" id="f0adb8cd-af8c-40ee-bb21-c39f850efdf9" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/assets/_js/PizzaView.js" afterPath="$PROJECT_DIR$/views/assets/_js/PizzaView.js" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,21 +14,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PizzaView.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PizzaView.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/html/PizzaView.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+            <state relative-caret-position="238">
+              <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PizzaView.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PizzaView.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/assets/_js/PizzaView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="45" lean-forward="false" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="45" />
+            <state relative-caret-position="102">
+              <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -35,7 +48,7 @@
         <entry file="file://$PROJECT_DIR$/views/php/PizzaView.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+              <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -44,12 +57,9 @@
       <file leaf-file-name="PizzaCtrl.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/control/PizzaCtrl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1060">
+            <state relative-caret-position="1224">
               <caret line="74" column="39" lean-forward="false" selection-start-line="74" selection-start-column="39" selection-end-line="74" selection-end-column="39" />
-              <folding>
-                <marker date="1510625069884" expanded="true" signature="548:566" ph="..." />
-                <marker date="1510625069884" expanded="true" signature="677:695" ph="..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -67,22 +77,15 @@
       <file leaf-file-name="PizzaDAO.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/control/dao/PizzaDAO.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-124">
-              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state relative-caret-position="357">
+              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding>
                 <element signature="e#71#97#0#PHP" expanded="true" />
-                <marker date="1510624486255" expanded="true" signature="320:371" ph="insert into pizza... " />
-                <marker date="1510624486255" expanded="true" signature="320:373" ph="insert into pizza... " />
-                <marker date="1510624486255" expanded="true" signature="751:783" ph="select * fro... pizza" />
-                <marker date="1510624486255" expanded="true" signature="1292:1315" ph="update pizza... " />
-                <marker date="1510624486255" expanded="true" signature="1292:1344" ph="update pizza... " />
-                <marker date="1510624486255" expanded="true" signature="1292:1374" ph="update pizza... " />
-                <marker date="1510624486255" expanded="true" signature="1292:1405" ph="update pizza... " />
-                <marker date="1510624486255" expanded="true" signature="1292:1406" ph="update pizza... " />
-                <marker date="1510624486255" expanded="true" signature="1292:1424" ph="update pizza... " />
-                <marker date="1510624486255" expanded="true" signature="1688:1715" ph="delete from " />
-                <marker date="1510624486255" expanded="true" signature="1688:1734" ph="delete from " />
-                <marker date="1510624486255" expanded="true" signature="1985:2004" ph="select * fro... pizza" />
+                <marker date="1510624488000" expanded="true" signature="320:373" ph="insert into pizza... " />
+                <marker date="1510624488000" expanded="true" signature="751:783" ph="select * fro... pizza" />
+                <marker date="1510624488000" expanded="true" signature="1292:1424" ph="update pizza... " />
+                <marker date="1510624488000" expanded="true" signature="1688:1734" ph="delete from " />
+                <marker date="1510624488000" expanded="true" signature="1985:2004" ph="select * fro... pizza" />
               </folding>
             </state>
           </provider>
@@ -125,6 +128,9 @@
       <replace>$produto</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -144,7 +150,6 @@
         <option value="$PROJECT_DIR$/views/php/footer.php" />
         <option value="$PROJECT_DIR$/views/assets/_css/view-cadastra-pizza.css" />
         <option value="$PROJECT_DIR$/views/php/login.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/views/html/are-usuario.html" />
         <option value="$PROJECT_DIR$/views/php/area-usuario.php" />
         <option value="$PROJECT_DIR$/control/dao/ProdutoDAO.php" />
@@ -161,9 +166,10 @@
         <option value="$PROJECT_DIR$/control/dao/PizzaDAO.php" />
         <option value="$PROJECT_DIR$/control/PizzaCtrl.php" />
         <option value="$PROJECT_DIR$/views/html/base.html" />
-        <option value="$PROJECT_DIR$/views/assets/_js/PizzaView.js" />
         <option value="$PROJECT_DIR$/views/html/PizzaView.html" />
         <option value="$PROJECT_DIR$/views/php/PizzaView.php" />
+        <option value="$PROJECT_DIR$/views/assets/_js/PizzaView.js" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -217,65 +223,34 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="SelectDelivery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SelectDelivery" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="select-delivery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="select-delivery" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="SelectDelivery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SelectDelivery" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="control" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="SelectDelivery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SelectDelivery" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="control" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="dao" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="SelectDelivery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SelectDelivery" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="select-delivery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="select-delivery" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="modelo" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="SelectDelivery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SelectDelivery" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="select-delivery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="select-delivery" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="SelectDelivery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SelectDelivery" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="SelectDelivery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SelectDelivery" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="_js" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="SelectDelivery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SelectDelivery" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="select-delivery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="select-delivery" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="SelectDelivery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SelectDelivery" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Produto" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="SelectDelivery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SelectDelivery" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="select-delivery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="select-delivery" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="php" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
@@ -337,32 +312,37 @@
       <workItem from="1510264911728" duration="7210000" />
       <workItem from="1510512341567" duration="2177000" />
       <workItem from="1510613925969" duration="12246000" />
+      <workItem from="1510671265874" duration="1170000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47031000" />
+    <option name="totallyTimeSpent" value="48201000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24558823" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24524158" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3227848" sideWeight="0.5205882" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.4970588" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.47941175" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32150537" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="100" y="123" width="1720" height="777" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884398" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.4970588" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -379,35 +359,17 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/control/PizzaCtrl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <marker date="1510625069884" expanded="true" signature="548:566" ph="..." />
-            <marker date="1510625069884" expanded="true" signature="677:695" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/control/dao/PizzaDAO.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="24" column="8" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
           <folding>
             <element signature="e#71#97#0#PHP" expanded="true" />
-            <marker date="1510624486255" expanded="true" signature="320:371" ph="insert into pizza... " />
-            <marker date="1510624486255" expanded="true" signature="320:373" ph="insert into pizza... " />
-            <marker date="1510624486255" expanded="true" signature="751:783" ph="select * fro... pizza" />
-            <marker date="1510624486255" expanded="true" signature="1292:1315" ph="update pizza... " />
-            <marker date="1510624486255" expanded="true" signature="1292:1344" ph="update pizza... " />
-            <marker date="1510624486255" expanded="true" signature="1292:1374" ph="update pizza... " />
-            <marker date="1510624486255" expanded="true" signature="1292:1405" ph="update pizza... " />
-            <marker date="1510624486255" expanded="true" signature="1292:1406" ph="update pizza... " />
-            <marker date="1510624486255" expanded="true" signature="1292:1424" ph="update pizza... " />
-            <marker date="1510624486255" expanded="true" signature="1688:1715" ph="delete from " />
-            <marker date="1510624486255" expanded="true" signature="1688:1734" ph="delete from " />
-            <marker date="1510624486255" expanded="true" signature="1985:2004" ph="select * fro... pizza" />
+            <marker date="1510624488000" expanded="true" signature="320:373" ph="insert into pizza... " />
+            <marker date="1510624488000" expanded="true" signature="751:783" ph="select * fro... pizza" />
+            <marker date="1510624488000" expanded="true" signature="1292:1424" ph="update pizza... " />
+            <marker date="1510624488000" expanded="true" signature="1688:1734" ph="delete from " />
+            <marker date="1510624488000" expanded="true" signature="1985:2004" ph="select * fro... pizza" />
           </folding>
         </state>
       </provider>
@@ -482,7 +444,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -490,7 +451,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -500,7 +460,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -508,7 +467,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -540,11 +498,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
           <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding>
-            <element signature="e#182#201#0#PHP" expanded="false" />
-            <marker date="1510272216035" expanded="true" signature="585:603" ph="..." />
-            <marker date="1510272216035" expanded="true" signature="716:734" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -572,29 +525,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/control/dao/ProdutoDAO.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
           <caret line="36" column="51" lean-forward="false" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
-          <folding>
-            <element signature="e#6#84#0#PHP" expanded="false" />
-            <element signature="e#150#176#0#PHP" expanded="false" />
-            <element signature="e#222#619#0#PHP" expanded="false" />
-            <element signature="e#1325#1638#0#PHP" expanded="false" />
-            <element signature="e#1644#2266#0#PHP" expanded="false" />
-            <marker date="1510269764173" expanded="true" signature="398:444" ph="insert into produto... " />
-            <marker date="1510269764173" expanded="true" signature="1118:1229" ph="update produ... " />
-            <marker date="1510269764173" expanded="true" signature="1497:1548" ph="delete from " />
-            <marker date="1510269764173" expanded="true" signature="1799:1821" ph="select * fro... produtos" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -602,7 +536,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -610,7 +543,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -618,7 +550,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -626,19 +557,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-32">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/assets/_css/sass.css.map">
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
-      </provider>
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/php/login.php">
@@ -653,7 +582,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -669,7 +597,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -677,7 +604,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4125">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -685,7 +611,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -693,7 +618,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -701,7 +625,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1774">
           <caret line="0" column="63" lean-forward="false" selection-start-line="0" selection-start-column="63" selection-end-line="0" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -709,6 +632,48 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="584">
           <caret line="112" column="10" lean-forward="false" selection-start-line="112" selection-start-column="10" selection-end-line="112" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control/PizzaCtrl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="74" column="39" lean-forward="false" selection-start-line="74" selection-start-column="39" selection-end-line="74" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/html/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="42" column="40" lean-forward="false" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/html/PizzaView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/php/PizzaView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -723,65 +688,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/control/dao/PizzaDAO.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-124">
-          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        <state relative-caret-position="357">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
             <element signature="e#71#97#0#PHP" expanded="true" />
-            <marker date="1510624486255" expanded="true" signature="320:371" ph="insert into pizza... " />
-            <marker date="1510624486255" expanded="true" signature="320:373" ph="insert into pizza... " />
-            <marker date="1510624486255" expanded="true" signature="751:783" ph="select * fro... pizza" />
-            <marker date="1510624486255" expanded="true" signature="1292:1315" ph="update pizza... " />
-            <marker date="1510624486255" expanded="true" signature="1292:1344" ph="update pizza... " />
-            <marker date="1510624486255" expanded="true" signature="1292:1374" ph="update pizza... " />
-            <marker date="1510624486255" expanded="true" signature="1292:1405" ph="update pizza... " />
-            <marker date="1510624486255" expanded="true" signature="1292:1406" ph="update pizza... " />
-            <marker date="1510624486255" expanded="true" signature="1292:1424" ph="update pizza... " />
-            <marker date="1510624486255" expanded="true" signature="1688:1715" ph="delete from " />
-            <marker date="1510624486255" expanded="true" signature="1688:1734" ph="delete from " />
-            <marker date="1510624486255" expanded="true" signature="1985:2004" ph="select * fro... pizza" />
+            <marker date="1510624488000" expanded="true" signature="320:373" ph="insert into pizza... " />
+            <marker date="1510624488000" expanded="true" signature="751:783" ph="select * fro... pizza" />
+            <marker date="1510624488000" expanded="true" signature="1292:1424" ph="update pizza... " />
+            <marker date="1510624488000" expanded="true" signature="1688:1734" ph="delete from " />
+            <marker date="1510624488000" expanded="true" signature="1985:2004" ph="select * fro... pizza" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/control/PizzaCtrl.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1060">
-          <caret line="74" column="39" lean-forward="false" selection-start-line="74" selection-start-column="39" selection-end-line="74" selection-end-column="39" />
-          <folding>
-            <marker date="1510625069884" expanded="true" signature="548:566" ph="..." />
-            <marker date="1510625069884" expanded="true" signature="677:695" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/html/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="42" column="40" lean-forward="false" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
+        <state relative-caret-position="153">
+          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/assets/_js/PizzaView.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="45" lean-forward="false" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/php/PizzaView.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/html/PizzaView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        <state relative-caret-position="102">
+          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
           <folding />
         </state>
       </provider>

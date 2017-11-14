@@ -7,6 +7,4 @@
  */
 session_start();
 
-header("location: /SelectDelivery/views/php/PizzaView.php");
-
-;
+header("location: /select-delivery/views/php/PizzaView.php");
