@@ -6,9 +6,8 @@
             <!-- BEGIN BLOCK_LISTA -->
             <thead>
             <tr>
-                <th>Canal</th>
-                <th>Source</th>
-                <th>Medium</th>
+                <th>Produto</th>
+                <th>Valor</th>
             </tr>
             </thead>
 
@@ -17,12 +16,12 @@
             <tr>
                 <td>{PRODUTO}</td>
                 <td>{VALOR}</td>
-                <td {ALTERAR}><a href="?id={ID_CANAL}"><i id="alterar" class="edit"></i></a>
+                <td><a href="?id={ID_PRODUTO}"><i id="alterar" class="fa fa-pencil-square-o"></i></a>
                 </td>
-                <td {REMOVER}>
-                    <form action="#" method="post">
-                        <input type="hidden" value="{ID_CANAL}" name="id-remove">
-                        <button name="remover" class="rmv"><i id="remover" class="remove"></i></button>
+                <td>
+                    <form id="fmr-remover" action="" method="post">
+                        <input type="hidden" value="{ID_PRODUTO}" name="id-remover">
+                        <button name="bto-remover" class="rmv" onclick="remover()"><i id="remover" class="fa fa-times"></i></button>
                     </form>
                 </td>
             </tr>

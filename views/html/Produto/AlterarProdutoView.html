@@ -9,16 +9,14 @@
             </div>
             <div class="panel-body">
                 {AVISO}
-                <form name="cadastrar" action="" method="post">
-                    <input type="text" class="form-control" name="nome" placeholder="Produto:" required/><br>
-                    <input type="text" class="form-control" name="valor" placeholder="Valor:" required/><br>
+                <form action="ProdutoView.php" method="post">
+                    <input type="text" class="form-control" name="nome" placeholder="Produto:" value="{VALUE_NOME}" required/><br>
+                    <input type="text" class="form-control" name="valor" placeholder="Valor:" value="{VALUE_VALOR}" required/><br>
                     <input type="hidden" value="{ID}" name="id-produto" id="id-produto">
-                    <button type="submit" class="btn btn-primary" name="cadastrar" value="alterar">Alterar</button>
+                    <button type="submit" class="btn btn-primary" name="bto-alterar" value="alterar">Alterar</button>
                 </form>
             </div>
 
         </div>
-        <table class="table">
-        </table>
     </div>
 </div>
