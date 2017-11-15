@@ -50,20 +50,23 @@ class PizzaCtrl
 
     public function alterar($id, $nome, $sabor, $valor)
     {
-        try {
-            $pizza = new Pizza();
-            $pizzaDao = new PizzaDao();
+        $pizza = new Pizza();
+        $objPizzaDao = new PizzaDAO();
 
-            $pizza->setId($id);
-            $pizza->setNome($nome);
-            $pizza->setSabor($sabor);
-            $pizza->setValor($valor);
+        $pizza->setId($id);
+        $pizza->setNome($nome);
+        $pizza->setSabor($sabor);
+        $pizza->setValor($valor);
 
-            $pizzaDao->alterar($pizza);
+        $mensagem = "";
 
-        } catch (Exception $exception) {
-            echo "Erro: " . $exception->getMessage();
+        if ($objPizzaDao->alterar($pizza)) {
+            $mensagem = "<p class='alert-success' style='text-align: center'>Pizza Alterada com sucesso!</p>";
+        } else {
+            $mensagem = "<p class='alert-danger' style='text-align: center'>Não foi possível alterar a pizza, tente novamente.</p>";
         }
+
+        return $mensagem;
     }
 
     public function remover($id)
