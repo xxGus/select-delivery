@@ -53,9 +53,17 @@ class PizzaDao
     {
         $connectionFactory = new ConnectionFactory();
         $pdo = $connectionFactory->getConnection();
-        $query = "update pizza set nome='{$pizza->getNome()}', sabor='{$pizza->getSabor()}', valor='{$pizza->getValor()}' where id='{$pizza->getId()}'";
+
+        $query = "update pizza set nome = ?, sabor = ?, valor = ? where id = ?";
+
         $resultado = $pdo->prepare($query);
-        return $resultado->execute();
+
+        return $resultado->execute(array(
+            $pizza->getNome(),
+            $pizza->getSabor(),
+            $pizza->getValor(),
+            $pizza->getId()
+        ));
     }
 
     public function remover(Pizza $pizza)

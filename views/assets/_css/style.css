@@ -1,0 +1,134 @@
+.header{
+    background: #e8e8e8;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.logoDelivery{
+    margin-bottom: 0;
+    font-size: 18pt;
+}
+
+.btnCadastrar{
+    margin-right: 20px;
+}
+
+.corpo{
+    padding-top: 145px;
+    background: url(../_img/backPizzaMedia.jpg);
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+.corpo-cadastro {
+    height: 100%;
+}
+
+.areaLogin{
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 25px;
+    border-style: outset;
+    border-width: 5px;
+    border-color: rgba(0,0,0,.1);
+    margin-bottom: 60px;
+}
+
+.formatLabel{
+    text-align: center;
+    font-size: 15pt;
+    color: white;
+}
+
+.welcome{
+    color: white;
+}
+
+h2{
+    text-align: center;
+}
+
+.footer{
+    background: #e8e8e8;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+@media (min-width:1360px){
+    .areaLogin{
+        margin-bottom: 165px;
+    }
+}
+
+.header{
+    background: #e8e8e8;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.logoDelivery{
+    margin-bottom: 0;
+    font-size: 18pt;
+}
+
+
+h2{
+    font-size: 15pt
+}
+
+h3{
+    font-size: 13pt
+}
+
+hr{
+    margin-top: 0;
+    margin-bottom: 10px
+}
+
+.ajusteTxt,
+.valorPedido,
+.recibo,
+.valor{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.ajustarBotao{
+    width: 100%;
+}
+
+.ajusteTxtPedido,
+.ajustarBotao,
+.recibo,
+.valor,
+.selecPag{
+    margin-top: 10px;
+}
+
+.valorPedido{
+    margin-top: 10px;
+}
+
+.selecPag,
+.opcPag{
+    width: 100%;
+}
+
+.valor{
+    margin-left: 22px;
+}
+
+.footer{
+    background: #e8e8e8;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.btoAcrescimo{
+    float: right;
+}
+
+.dividir-pag{
+    text-align: center;
+}

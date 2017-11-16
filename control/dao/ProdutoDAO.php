@@ -12,6 +12,7 @@ require_once("ConnectionFactory.php");
 
 use dao\ConnectionFactory;
 use modelo\Produto;
+use PDO;
 
 
 class ProdutoDAO
@@ -35,18 +36,32 @@ class ProdutoDAO
     {
         $connectionFactory = new ConnectionFactory();
         $pdo = $connectionFactory->getConnection();
-        $query = "selec * from produtos where id = '{$produto->getId()}'";
+        $query = "select * from produtos where id = ?";
         $resultado = $pdo->prepare($query);
-        return $resultado->execute();
+        $resultado->execute(array(
+            $produto->getId()
+        ));
+
+
+        $produtoDB = $resultado->fetch(PDO::FETCH_OBJ);
+
+        $produto->setNome($produtoDB->nome);
+        $produto->setValor($produtoDB->valor);
+
+        return $produto;
     }
 
     public function alterar(Produto $produto)
     {
         $connectionFactory = new ConnectionFactory();
         $pdo = $connectionFactory->getConnection();
-        $query = "update produtos set nome='{$produto->getNome()}', valor='{$produto->getValor()}' where id='{$produto->getId()}'";
+        $query = "update produtos set nome = ?, valor = ? where id = ?";
         $resultado = $pdo->prepare($query);
-        return $resultado->execute();
+        return $resultado->execute(array(
+            $produto->getNome(),
+            $produto->getValor(),
+            $produto->getId()
+        ));
     }
 
     public function remover(Produto $produto)
