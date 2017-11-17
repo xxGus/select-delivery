@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0adb8cd-af8c-40ee-bb21-c39f850efdf9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/html/pedido.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/php/pedido.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/assets/_js/PizzaView.js" afterPath="$PROJECT_DIR$/views/assets/_js/form.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/html/Login.html" afterPath="$PROJECT_DIR$/views/html/login.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/control/ProdutoCtrl.php" afterPath="$PROJECT_DIR$/control/ProdutoCtrl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/control/dao/ProdutoDAO.php" afterPath="$PROJECT_DIR$/control/dao/ProdutoDAO.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/html/Pizza/CadastrarPizzaView.html" afterPath="$PROJECT_DIR$/views/html/Pizza/CadastrarPizzaView.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/html/Produto/AlterarProdutoView.html" afterPath="$PROJECT_DIR$/views/html/Produto/AlterarProdutoView.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/html/Produto/CadastrarProdutoView.html" afterPath="$PROJECT_DIR$/views/html/Produto/CadastrarProdutoView.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/html/Produto/ListarProdutoView.html" afterPath="$PROJECT_DIR$/views/html/Produto/ListarProdutoView.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/html/base.html" afterPath="$PROJECT_DIR$/views/html/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/php/ProdutoView.php" afterPath="$PROJECT_DIR$/views/php/ProdutoView.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/php/login.php" afterPath="$PROJECT_DIR$/views/php/login.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,7 +17,7 @@
         <entry file="file://$PROJECT_DIR$/views/html/login.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -60,8 +46,8 @@
       <file leaf-file-name="pedido.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/php/pedido.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="102">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
                 <element signature="e#6#97#0#PHP" expanded="true" />
               </folding>
@@ -82,7 +68,7 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/assets/_css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
+            <state relative-caret-position="1530">
               <caret line="90" column="7" lean-forward="false" selection-start-line="90" selection-start-column="7" selection-end-line="90" selection-end-column="7" />
               <folding />
             </state>
@@ -92,8 +78,8 @@
       <file leaf-file-name="PizzaDAO.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/control/dao/PizzaDAO.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+            <state relative-caret-position="629">
+              <caret line="39" column="28" lean-forward="true" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
               <folding>
                 <marker date="1510719801795" expanded="true" signature="320:373" ph="insert into pizza... " />
                 <marker date="1510719801795" expanded="true" signature="751:783" ph="select * fro... pizza" />
@@ -243,8 +229,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -256,12 +240,6 @@
               <item name="select-delivery" type="b2602c69:ProjectViewProjectNode" />
               <item name="select-delivery" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="control" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="select-delivery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="select-delivery" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="control" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="dao" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="select-delivery" type="b2602c69:ProjectViewProjectNode" />
@@ -296,19 +274,14 @@
               <item name="select-delivery" type="b2602c69:ProjectViewProjectNode" />
               <item name="select-delivery" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Pizza" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="select-delivery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="select-delivery" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="php" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -365,18 +338,18 @@
       <workItem from="1510613925969" duration="12246000" />
       <workItem from="1510671265874" duration="1170000" />
       <workItem from="1510707401417" duration="12760000" />
-      <workItem from="1510748484585" duration="10991000" />
+      <workItem from="1510748484585" duration="11671000" />
+      <workItem from="1510871473623" duration="3058000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71952000" />
+    <option name="totallyTimeSpent" value="75690000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19705883" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19264705" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3227848" sideWeight="0.5205882" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -486,7 +459,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-104">
           <caret line="237" column="16" lean-forward="false" selection-start-line="237" selection-start-column="16" selection-end-line="237" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -512,13 +484,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/assets/_css/sass.css.map">
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
+      </provider>
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/assets/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/mixins/_panels.scss">
@@ -568,14 +540,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/assets/_js/ProdutoView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/views/assets/_js/ProdutoView.js" />
     <entry file="file://$PROJECT_DIR$/control/PizzaCtrl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="295">
@@ -601,7 +566,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -609,9 +573,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -619,7 +580,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -635,7 +595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -656,7 +615,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="131">
           <caret line="19" column="91" lean-forward="false" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="91" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -689,7 +647,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="6" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -707,14 +664,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="244">
           <caret line="22" column="82" lean-forward="false" selection-start-line="22" selection-start-column="82" selection-end-line="22" selection-end-column="82" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/html/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -723,7 +679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="244">
           <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="79" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -739,7 +694,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -761,7 +715,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/assets/_css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
+        <state relative-caret-position="1530">
           <caret line="90" column="7" lean-forward="false" selection-start-line="90" selection-start-column="7" selection-end-line="90" selection-end-column="7" />
           <folding />
         </state>
@@ -777,8 +731,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/php/pedido.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="102">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="e#6#97#0#PHP" expanded="true" />
           </folding>
@@ -795,8 +749,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/control/dao/PizzaDAO.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        <state relative-caret-position="629">
+          <caret line="39" column="28" lean-forward="true" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
           <folding>
             <marker date="1510719801795" expanded="true" signature="320:373" ph="insert into pizza... " />
             <marker date="1510719801795" expanded="true" signature="751:783" ph="select * fro... pizza" />
