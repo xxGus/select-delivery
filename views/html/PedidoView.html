@@ -1,0 +1,77 @@
+<div class="col-md-12">
+    <h2>Dados do Pedido</h2>
+    <hr>
+    <div class="col-md-4 ajusteTxt">
+
+        <!--
+        <select name="tamanho-pizza" id="tamanho-pizza" required>
+            <option value="">Tamanho:</option>
+            <option value="0">Pequena</option>
+            <option value="1">Media</option>
+            <option value="2">Grande</option>
+        </select>
+        -->
+
+        <select name="" id="select-pizza">
+            <option value="0">Pizza:</option>
+            <!-- BEGIN BLOCK_PIZZA -->
+            <option id="valor-pizza" value="{VALOR_PIZZA}">{PIZZA}</option>
+            <!-- END BLOCK_PIZZA -->
+            <option></option>
+            <!-- FINALLY BLOCK_PIZZA -->
+        </select>
+
+        <button class="btn btn-primary ajustarBotao" id="add-pizza">Adicionar Pizza</button>
+
+        <select name="" id="select-produto">
+            <option value="">Produto:</option>
+            <!-- BEGIN BLOCK_PRODUTO -->
+            <option id="valor-produto" value="{VALOR_PRODUTO}">{PRODUTO}</option>
+            <!-- END BLOCK_PRODUTO -->
+            <option></option>
+            <!-- FINALLY BLOCK_PRODUTO -->
+        </select>
+        <input type="text" class="form-control ajusteTxtPedido" placeholder="Comentário:">
+
+        <button class="btn btn-primary ajustarBotao" id="add-produto">Adicionar Produto</button>
+
+        <select id="tipo-pagamento">
+            <option value="">Pagamento:</option>
+            <option value="0">Dinheiro</option>
+            <option value="1">Cartão Débito</option>
+            <option value="2">Cartão Crédito</option>
+        </select>
+
+    </div>
+
+    <div class="col-md-4">
+        <div id="resumo-pedido" class="panel panel-default">
+            Resumo do pedido:
+            <table >
+                <thead>
+                <tr>
+                    <th>Pizza</th>
+                    <th>Valor</th>
+                </tr>
+                </thead>
+                <tbody id="resumo-pizza">
+
+                </tbody>
+            </table>
+            <table >
+                <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Comentário</th>
+                    <th>Valor</th>
+                </tr>
+                </thead>
+                <tbody id="resumo-produto">
+
+                </tbody>
+            </table>
+            <hr>
+            Taxa de entrega:
+        </div>
+    </div>
+</div>
