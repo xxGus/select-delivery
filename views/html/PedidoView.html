@@ -21,7 +21,7 @@
             <!-- FINALLY BLOCK_PIZZA -->
         </select>
 
-        <button class="btn btn-primary ajustarBotao" id="add-pizza">Adicionar Pizza</button>
+        <button class="btn btn-primary ajustarBotao" id="add-pizza" onclick="adicionar(selectPizza, resumoPizza)">Adicionar Pizza</button>
 
         <select name="" id="select-produto">
             <option value="">Produto:</option>
@@ -31,9 +31,8 @@
             <option></option>
             <!-- FINALLY BLOCK_PRODUTO -->
         </select>
-        <input type="text" class="form-control ajusteTxtPedido" placeholder="Comentário:">
 
-        <button class="btn btn-primary ajustarBotao" id="add-produto">Adicionar Produto</button>
+        <button class="btn btn-primary ajustarBotao" id="add-produto" value="addProduto" onclick="adicionar(selectProduto, resumoProduto)">Adicionar Produto</button>
 
         <select id="tipo-pagamento">
             <option value="">Pagamento:</option>
@@ -41,6 +40,8 @@
             <option value="1">Cartão Débito</option>
             <option value="2">Cartão Crédito</option>
         </select>
+
+        <input id="comentario" type="text" class="form-control ajusteTxtPedido" placeholder="Comentário:">
 
     </div>
 
@@ -52,6 +53,9 @@
                 <tr>
                     <th>Pizza</th>
                     <th>Valor</th>
+                    <th>
+                        <button id="remover">remover</button>
+                    </th>
                 </tr>
                 </thead>
                 <tbody id="resumo-pizza">
@@ -62,7 +66,6 @@
                 <thead>
                 <tr>
                     <th>Produto</th>
-                    <th>Comentário</th>
                     <th>Valor</th>
                 </tr>
                 </thead>
@@ -70,8 +73,8 @@
 
                 </tbody>
             </table>
-            <hr>
-            Taxa de entrega:
+             <hr>
+            Tipo de pagamento: <span id="tipo-pag-selected"></span>
         </div>
     </div>
 </div>
