@@ -21,7 +21,11 @@
             <!-- FINALLY BLOCK_PIZZA -->
         </select>
 
-        <button class="btn btn-primary ajustarBotao" id="add-pizza" onclick="adicionar(selectPizza, resumoPizza)">Adicionar Pizza</button>
+        <input id="qtd-pizza" type="number" placeholder="Quant.:" value="1" min="1" max="100">
+
+        <button class="btn btn-primary ajustarBotao" id="add-pizza"
+                onclick="adicionar(selectPizza, resumoPizza, qtdPizza)">Adicionar Pizza
+        </button>
 
         <select name="" id="select-produto">
             <option value="">Produto:</option>
@@ -32,7 +36,11 @@
             <!-- FINALLY BLOCK_PRODUTO -->
         </select>
 
-        <button class="btn btn-primary ajustarBotao" id="add-produto" value="addProduto" onclick="adicionar(selectProduto, resumoProduto)">Adicionar Produto</button>
+        <input id="qtd-produto" type="number" placeholder="Quant.:" value="1" min="1" max="100">
+
+        <button class="btn btn-primary ajustarBotao" id="add-produto" value="addProduto"
+                onclick="adicionar(selectProduto, resumoProduto, qtdProduto)">Adicionar Produto
+        </button>
 
         <select id="tipo-pagamento">
             <option value="">Pagamento:</option>
@@ -45,14 +53,15 @@
 
     </div>
 
-    <div class="col-md-4">
+    <div class="col-md-5">
         <div id="resumo-pedido" class="panel panel-default">
             Resumo do pedido:
-            <table >
+            <table class="table">
                 <thead>
                 <tr>
                     <th>Pizza</th>
                     <th>Valor</th>
+                    <th>Quantidade</th>
                     <th>
                         <button id="remover">remover</button>
                     </th>
@@ -62,18 +71,21 @@
 
                 </tbody>
             </table>
-            <table >
+            <table class="table">
                 <thead>
                 <tr>
                     <th>Produto</th>
                     <th>Valor</th>
+                    <th>Quantidade</th>
                 </tr>
                 </thead>
                 <tbody id="resumo-produto">
 
                 </tbody>
             </table>
-             <hr>
+            <hr>
+            Total a pagar: <span id="total-pagar"></span>
+            <hr>
             Tipo de pagamento: <span id="tipo-pag-selected"></span>
         </div>
     </div>
