@@ -9,8 +9,6 @@ var qtdProduto = document.getElementById('qtd-produto');
 
 var comentario = document.getElementById('comentario');
 
-var remover = document.getElementById('remover');
-
 var totalPagar = document.getElementById('total-pagar');
 var valor = 0;
 var subValor = 0;
@@ -22,64 +20,32 @@ function adicionar(slct, table, qtd) {
         var newRow = document.createElement('tr');
         newRow.id = 'linha' + newId;
 
-        var chk = document.createElement('input');
-        chk.type = 'checkbox';
-        chk.name = 'chk-remover';
-        chk.value = 'linha' + newId;
+        var button = document.createElement('button');
+        button.name = 'btn-remover';
+        button.textContent = 'remover';
 
         newRow.insertCell(0).innerHTML = slct.options[slct.selectedIndex].text;
         newRow.insertCell(1).innerHTML = slct.value;
         newRow.insertCell(2).innerHTML = qtd.value;
-        newRow.insertCell(3).appendChild(chk);
+        newRow.insertCell(3).appendChild(button);
 
         table.appendChild(newRow);
 
         // console.log(totalPagar.textContent);
 
         if (totalPagar.textContent == '') valor = 0;
-
         valor = valor + (slct.value * qtd.value);
 
-        totalPagar.innerHTML = valor;
-    }
-}
-
-remover.onclick = function () {
-    try {
-        // obtendo os checkboxes:
-        var checkboxes = document.getElementsByName('chk-remover');
-        var linhasMarcadas = false;
-
-        // console.log(checkboxes.length);
-
-        console.log(resumoPizza.rows.length);
-        console.log(resumoPizza.rows[0].id);
-        for (i = checkboxes.length - 1; i >= 0; i--)
-            if (checkboxes[i].checked) {
-
-                for (j= resumoPizza.rows.length -1  ; j>=0; j--){
-                    if (resumoPizza.rows[j].id == checkboxes[i].value){
-                        subValor = subValor + (resumoPizza.rows[j].children[1].innerHTML * resumoPizza.rows[j].children[2].innerHTML);
-                        console.log(subValor);
-                    }
-
-                    if (resumoProduto.rows[j].id == checkboxes[i].value){
-                        subValor = subValor + (resumoProduto.rows[j].children[1].innerHTML * resumoProduto.rows[j].children[2].innerHTML);
-                    }
-                }
-
-                document.getElementById(checkboxes[i].value).remove();
-                linhasMarcadas = true;
+        button.onclick = function (ev) {
+            btn = document.getElementById('linha' + newId);
+            if (valor > 0){
+                valor = valor - (btn.childNodes[1].textContent * btn.childNodes[2].textContent);
+                totalPagar.innerHTML = valor;
+                document.getElementById('linha'+newId).remove();
             }
+        };
 
-
-        // se o usuario nao marcou nenhuma linha
-        if (!linhasMarcadas)
-            alert('Marque as linhas que deseja remover!');
-
-    } catch (erro) {
-        // tratando o erro se nao tiver mais linhas
-        //se quiser o alerta do erro: alert(erro);
+        totalPagar.innerHTML = valor;
     }
 }
 
